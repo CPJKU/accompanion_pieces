@@ -36,5 +36,39 @@ Please try to keep the naming of the folders and the files consistent.
 
 #### Simple Piece Example
 
+```
+accompanion_pieces
+|	complex_pieces
+└───simple_pieces
+|	└─── new_piece
+|		|	primo.musicxml
+|		|	secondo.musicxml
+|		| 	score.pdf
+```
 
+
+
+#### Complex Piece Example
+
+```
+accompanion_pieces
+|	simple_pieces
+└───complex_pieces
+|	└─── new_piece
+|		└─── musicxml
+|			|	primo.musicxml
+|			|	secondo.musicxml
+|			|	score.pdf
+|		└─── match
+|			└─── primo
+|				|	new_piece_performance_primo_1.match
+|				|	new_piece_performance_primo_2.match
+|				|	...
+|			└─── secondo
+|				|	new_piece_performance_secondo_1.match
+|				|	new_piece_performance_secondo_2.match
+|				|	...
+|		└─── basismixer
+|			|	bm_new_piece.match
+```
 
